@@ -1,4 +1,4 @@
-from . import redis_client
+from cache import redis_client
 
 def test():
     return "redis connect ok"

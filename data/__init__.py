@@ -4,7 +4,6 @@ from typing import Optional
 con: Optional[Connection] = None
 cur: Optional[Cursor] = None
 
-
 def get_db():
     global con, cur
     if con is None:
